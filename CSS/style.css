@@ -1,0 +1,560 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.content
+{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+
+.navbar a
+{
+    color: black;
+    font-weight: bold;
+    padding: 10px !important;
+}
+
+.navbar a:hover
+{
+    color: #fb5849!important;
+}
+
+.firstpage .part1
+{
+    width: 30%;
+    height: 100%;
+    background-image: url(https://eslamramadanabdo.github.io/klassy_cafe/assets/images/top-left-bg.jpg);
+    color: white;
+    position: relative;
+}
+
+.firstpage .part1 .text
+{
+    position: absolute;
+    top: 50%;
+    left: 20%;
+}
+
+.firstpage .part1 .text h1
+{
+    font-family: 'Dancing Script', cursive;
+    margin-left: 25px;
+}
+
+.firstpage .part1 .text button
+{
+    background-color: white !important;
+    margin-left: 40px;
+}
+
+.firstpage .part2
+{
+    width: 70%;
+    height: 100vh;
+}
+
+.firstpage .content .part2 .carousal-item
+{
+    width: 100%;
+    height: 100vh !important;
+}
+
+.firstpage .content .part2 .carousal-item img
+{
+    width: 100%;
+    height: 100vh !important;
+}
+
+/* First Page Media Style */
+/* For Tablet */
+@media(max-width:768px)
+{
+    .content
+{
+    display: block;
+}
+.firstpage .part1
+{
+    width: 100%;
+    position: relative;
+}
+.firstpage .part1 .text
+{
+    position: absolute;
+    top: 50%;
+    left: 35%;
+}
+.firstpage .part2
+{
+    width: 100%;
+}
+}
+
+/* For Mobile */
+@media(max-width:376px)
+{
+    .firstpage .part1
+{
+    width: 100%;
+    position: relative;
+}
+.firstpage .part1 .text
+{
+    position: absolute;
+    top: center;
+    left: center;
+}
+}
+
+@media(max-width:426px)
+{
+    .firstpage .part1
+{
+    width: 100%;
+    position: relative;
+}
+.firstpage .part1 .text
+{
+    position: absolute;
+    top: 50%;
+    left: 22%;
+}
+}
+/* End Of Fiirrst Page media style */
+
+/* Second Page Style */
+
+.secondpage
+{
+    width: 100%;
+    height: auto;
+}
+
+.secondpage .page2
+{
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+
+.secondpage .page2 .part1
+{
+    width: 50%;
+    height: 100%;
+}
+
+.secondpage .page2 .part1 .p1-text h4
+{
+    margin-top: 100px;
+    font-size: 20px;
+    color: #fb5849;
+}
+
+.secondpage .page2 .part1 .p1-text .p1
+{
+    font-weight: 900 !important;
+    font-size: xx-large;
+    color: #2a2a2a;
+    margin-top: 0px !important;
+}
+
+.secondpage .page2 .part2 .aboutvideo img
+{
+    margin-top: 100px !important;
+    margin-left: 50px;
+    margin-bottom: 100px;
+}
+
+span
+{
+    color: rgb(1, 156, 199);
+}
+
+/* For Mobile */
+@media(max-width:600px)
+{
+    .secondpage .page2 .part1
+{
+    width: 100%;
+    height: 100%;
+}
+
+.secondpage .page2 .part2
+{
+    width: 100%;
+}
+
+.secondpage .page2
+{
+    width: 100%;
+    height: auto;
+    display: block !important;
+}
+
+.secondpage .page2 .part2 .aboutvideo
+{
+    width: 100% !important;
+    height: auto;
+}
+
+.secondpage .page2 .part2 .aboutvideo img
+{
+    width: 100% !important;
+    margin-left: 0px !important;
+    margin-top: 30px !important;
+    margin-bottom: 10px !important;
+}
+
+.secondpage .page2 .part1 .p1-text h4 {
+    margin-top: 441px !important;
+}
+
+.secondpage .page2 .part1 .dishes .imgs
+{
+    width: 25% !important;
+    display: flex !important;
+    justify-content:space-between !important;
+    margin-left: -45px !important;
+    margin-top: -40px !important;
+}
+
+.secondpage .page2 .part1 .dishes .imgs img
+{
+    width: 30%;
+}
+}
+
+/* For Tablet */
+@media(max-width:768px)
+{
+    .secondpage .page2 .part1
+    {
+        width: 100%;
+        height: 100%;
+    }
+    
+    .secondpage .page2 .part2
+    {
+        width: 100%;
+    }
+
+    .secondpage .page2
+    {
+    width: 100%;
+    height: auto;
+    display: block;
+    }
+
+    .secondpage .page2 .part1 .p1-text h4 {
+        margin-top: 441px;
+    }
+
+    .secondpage .page2 .part1 .dishes .imgs
+    {
+        width: 50%;
+        display: flex;
+        justify-content:space-between !important;
+    }
+
+    .secondpage .page2 .part1 .dishes .imgs img
+    {
+        width: 100%;
+        margin: 30px;
+    }
+
+    .secondpage .page2 .part2 .aboutvideo img
+    {
+        margin-top: 10px !important;
+        width: 90%;
+        margin-left: 30px;
+        margin-bottom: 15px !important;
+    }
+}
+
+/* End Second Page Style */
+
+/* Start Third Page Style */
+
+.thirdpage
+{
+    width: 100%;
+    height: auto;
+}
+
+.thirdpage .text3 p
+{
+    font-weight: 900;
+    font-size: xx-large;
+    color: #2a2a2a ;
+    margin-bottom: 50px;
+}
+
+.thirdpage .text3 h4
+{
+    margin-top: 100px;
+    font-size: 20px;
+    color: #fb5849;
+    margin-top: 0px;
+    margin-top: 40px;
+}
+
+.thirdpage .bakery .slider
+{
+    display: flex;
+   flex-wrap: wrap;
+   margin-bottom: 50px;
+
+}
+
+
+
+
+/* For Tablet */
+@media(max-width:768px)
+{
+    .thirdpage .bakery .slider
+{
+    display: flex;
+   flex-wrap: wrap;
+   margin-bottom: 50px;
+   justify-content: space-around;
+}
+
+.thirdpage .text3 h4
+{
+    margin-top: 100px;
+}
+
+.thirdpage .bakery .slider .card 
+{
+    width: 30% !important;
+}
+
+.thirdpage .bakery .slider .card .card-body{
+    width: auto;
+}
+}
+
+
+/* For Mobile */
+@media(max-width:600px)
+{
+    .thirdpage .bakery .slider .card 
+{
+    width: 40% !important;
+}
+.thirdpage .bakery .slider .card 
+{
+    margin: 5px;
+}
+}
+
+/* End Of Third Page  */
+
+/* Start Of Fourth Page */
+
+.fourthpage
+{
+    width: 100%;
+    height:auto;
+}
+
+.fourthpage .cheftxt
+{
+    margin-top: 100px;
+}
+
+.fourthpage .cheftxt h4
+{
+    color: #fb5849;
+}
+
+.fourthpage .cheftxt p
+{
+    font-size: xx-large;
+    font-weight: 900;
+}
+
+.fourthpage .chefimg
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.fourthpage .chefimg .card .name
+{
+    color: #fb5849;
+    font-weight: bold;
+}
+
+.fourthpage .chefimg .card .des
+{
+    color: black;
+    font-weight: bold;    
+}
+
+.fourthpage .chefimg .card
+{
+    transition: all 0.2s;
+    margin-top: 30px;
+}
+
+.fourthpage .chefimg .card:hover
+{
+    transform: scale(1.1);
+}
+/* End Of Fourth Page */
+
+/* Start Of Fifth page */
+
+.fifthpage
+{
+    width: 100%;
+    height: 80vh;
+    background-image: url(../imgs/reservation-bg.jpg);
+}
+
+
+.fifthpage .container
+{
+    display: flex;
+}
+
+.fifthpage .part1
+{
+    width: 50%;
+    height: auto;
+}
+
+
+.fifthpage .part1 .contact
+{
+    font-size:large;
+    color:#fb5849;
+    padding-top: 70px;
+}
+
+.fifthpage .part1 h1
+{
+    font-size: x-large;
+    color: white;
+}
+
+.fifthpage .part1 p
+{
+    color: white;
+    margin-top: 50px;
+}
+
+.fifthpage .display
+{
+    display: flex; 
+}
+
+.fifthpage .display .card
+{
+    margin: 10px;
+}
+
+.fifthpage .display .card-body
+{
+    font-weight: bold;
+}
+
+
+.fifthpage .part2
+{
+    width: 50%;
+}
+
+.fifthpage .reservation
+{
+    margin-top: 100px;
+    color: white;
+    margin-left: 50px;
+}
+
+/* Ending Page  */
+
+.ending
+{
+    width: 100%;
+    height: 100%;
+}
+
+.ending .ft
+{
+    text-align: center;
+}
+
+.ending .ft h4
+{
+    font-size: x-large;
+    color: #fb5849;
+}
+
+.ending .ft p
+{
+    font-size: xx-large;
+    color: #2a2a2a;
+    font-weight: 900;
+}
+
+.ending .price 
+{
+    font-size: x-large !important;
+    font-weight: bold !important;
+    color: #fb5849 !important;
+}
+
+/* End OF Ending Page */
+
+/* Start OF Footer */
+
+.footer 
+{
+    width: 100%;
+    height: auto;
+    background-color: #fb5849;
+}
+
+.footer .divides
+{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer .divides .icons
+{
+    width: 30%;
+}
+
+.footer .divides .logo
+{
+    width: 30%;
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+}
+
+.footer .divides .copyright
+{
+    color: white;
+    margin-top: 20px;
+}
+
+
+
+
+
+
+
+/* End OF Footer */
+
